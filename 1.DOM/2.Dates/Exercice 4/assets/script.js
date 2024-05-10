@@ -25,6 +25,9 @@ function afficheHeure() {
     let toDay = new Date()
     let heure = toDay.getHours();
     let minute = toDay.getMinutes();
+    if (minute < 10) {
+        minute = '0' + toDay.getMinutes();
+    }
     let seconde = toDay.getSeconds();
     if (seconde < 10) {
         seconde = '0' + toDay.getSeconds();

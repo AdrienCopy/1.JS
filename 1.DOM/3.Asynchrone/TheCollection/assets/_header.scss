@@ -1,0 +1,42 @@
+header {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color:rgb(255, 255, 255, 0.7);
+    box-shadow: 0px 0px 5px #1F3B58;
+    backdrop-filter: blur(6.2px);
+    -webkit-backdrop-filter: blur(3px);
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 0;
+    color:#1F3B58;
+    z-index: 10;
+    nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 10px;
+    }
+    button {
+        color: rgb(255, 255, 255, 0.5);
+        appearance: none;
+        padding: 5px;
+        background-color: rgb(13, 196, 13);
+        border-radius: 5px;
+        border: 0px;
+        margin: 2px;
+        cursor: pointer;
+        transition: box-shadow 0.9s ease;
+    }
+    button:hover {
+        box-shadow: 0px 0px 3px #1F3B58;
+        //background-color: rgb(132, 255, 132);
+        color: #1F3B58;
+    }
+}
+    
